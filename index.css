@@ -1,0 +1,76 @@
+/*test2*/
+button {
+  background-color: #5F9EA0; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+body {
+  background-color: white;
+}
+.nav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  margin-bottom: 0px;
+  z-index: 9999;
+}
+
+/* Links inside the navbar */
+.nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.nav a:hover {
+  background: #ddd;
+  color: black;
+}
+
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  text-align:center;
+  margin-top:16rem;
+  margin-bottom:16rem;
+}
+.col-sm-4{
+  text-align:center;
+  margin-top:10rem;
+  margin-bottom:10rem;
+}
+.jumbotron center{
+  font-size: 72px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+hr{
+  border: 3px solid #ddd;
+}
+
+#target{
+  text-align:center;
+  margin-top:15rem;
+  margin-bottom:15rem;
+}
+
+#solution{
+  text-align:center;
+  margin-top:16rem;
+  margin-bottom:16rem;
+}

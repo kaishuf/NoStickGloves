@@ -5,96 +5,76 @@
     <title></title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="main.css" type="text/css" rel="stylesheet">
+    <link href="index.css" type="text/css" rel="stylesheet">
   </head>
   
 <body>
   <!--created an "id" in order to be able to change in CSS-->
     <nav class="nav nav-pills nav-fill" id="Nav">
-      <a class="nav-item nav-link active" href="index.html">Home</a>
-      <a class="nav-item nav-link" href="nsgAboutUs.html">About Us</a>
-      <a class="nav-item nav-link" href="nsgDIY.html">DIY</a>
+      <a id="active" class="nav-item nav-link active" href="index.html">Home</a>
       <a class="nav-item nav-link" href="nsgOurProduct.html">Our Product</a>
+      <a class="nav-item nav-link" href="nsgDIY.html">DIY</a>
+      <a class="nav-item nav-link" href="nsgAboutUs.html">About Us</a>
       <a class="nav-item nav-link" href="nsgContactUs.html">Contact Us</a>
     </nav>
-
-  <div class="jumbotron">
-    <h1>No Stick Gloves</h2>
-    <!--<p></p>-->
-      <marquee scrollamount="15">The world is advancing all around us and now, no matter what job somebody takes, technology is a part of it.</marquee>
-    <p><a href="fukami_aboutme.html">Continue Reading...</a></p>
-  </div>
-
-  <!--Cards from bootstrap and rearranged-->
-  <div class="container">
-    <div class="row">
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row no-gutters">
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Work Experience</h5>
-              <h6 class="card-title">Taekwondo Instructor</h6>
-              <p class="card-text">I have taught kids ranging from 3 years old to adults for 6 years. I have picked up lots of leadership skills and learned to adapt quickly/lead by example</p>
-              <a href="fukami_resume.html">See More</a>
-              <p class="card-text"><small class="text-muted">Last Updated April 17, 2020</small></p>
-            </div>
-          </div>
-            <div class="col-md-4">
-              <img src="Images/taekwondo.jpeg" class="card-img" alt="me">
-            </div>
+    <div class=main>
+    <div class= "jumbotron" id="1">
+      <center>No Stick Glove</center>
+      <img src="Images/scratch.PNG" alt="Image of Me">
+    <p><button type="button">Our Product</button></p>
+    </div>
+     <div class="container" id="2">
+      <div class= "row">
+        <div id="problem" class="col-sm-6">
+            <hr>
+            <h1>The Problem</h1>
+            <hr>
         </div>
-      </div>
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row no-gutters">
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Mit App Inventor Project</h5>
-              <h6 class="card-title">QuizMe App</h6>
-              <p class="card-text">In this pair-programming project my partner and I took an existing tutorial from MIT App Inventor and refined it, improving the game stylistically and interface-wise...</p>
-              <a href="fukami_projects.html">continue reading</a>
-              <p class="card-text"><small class="text-muted">Last Updated October 2019</small></p>
-            </div>
-          </div>
-            <div class="col-md-4">
-              <img src="Images/mit.png" class="card-img" alt="me">
-            </div>
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-4">
+          <p>During this pandemic, it is necessary for essential workers to wear protective gear while doing their jobs. This includes gloves however for people that deal with stickers such as postage workers or medical workers, latex gloves get in the way. Stickers stick to latex gloves a lot and oftentimes rip the glove. This poses health concerns to such people as well as slow down their productivity because they must worry about their gloves.</p>
+        </div>
+        <div class="col-sm-1">
         </div>
       </div>
     </div>
 
-      <div class="row">
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row no-gutters">
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Scratch Project</h5>
-                <h6 class="card-title">Maze Game</h6>
-                <p class="card-text">The Scratch Project was my first coding/engineering project and it taught me a lot about coding and how it works. It was a good intro into learning coding languages...</p>
-                <a href="fukami_projects.html">continue reading</a>
-                <p class="card-text"><small class="text-muted">Last Updated October 2019</small></p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <img src="Images/scratchlogo.png" class="card-img" alt="me">
-            </div>
-          </div>
+    <div class= "jumbotron" id="2">
+      <div class= "row">
+        <div id="problem" class="col-sm-6">
+            <h1>Our Purpose</h1>
         </div>
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row no-gutters">
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">2017 Taekwondo National Champion</h5>
-                <h6 class="card-title">Detroit, Texas</h5>
-                <p class="card-text">In 2017 I competed at the Taekwondo National Championships and won gold becoming the Sparring Fly Weight National Champion.</p>
-                <p class="card-text"><small class="text-muted">Last Updated October 2019</small></p>
-              </div>
-            </div>
-              <div class="col-md-4">
-                <img src="Images/nationals.jpeg" class="card-img" alt="me">
-              </div>
-          </div>
-        </div> 
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-4" id="target">
+          <p>We want to help essential workers dealing with sticky adhesives to continue working with high efficiency while maintaing health precautions.</p>
+        </div>
+        <div class="col-sm-1">
+        </div>
       </div>
-    </div> 
+    </div>
+
+    <div class="container" id="2">
+      <div class= "row">
+        <div id="problem" class="col-sm-6">
+            <hr>
+            <h1>Our Solution</h1>
+            <hr>
+        </div>
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-4" id="solution">
+          <p>We have created a cost efficient and reusable glove that will help users to deal with stickers without damaging the glove or the adhesive. <a href="nsgOurProduct.html">Learn more about our product</a></p>
+        </div>
+        <div class="col-sm-1">
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+  
     <footer>
     <div class="jumbotron">
       <div class="row">
