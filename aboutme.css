@@ -1,3 +1,10 @@
 .col-sm-9 p {
   font-size: 14px;
 }
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+}
+.jumbotron{
+  margin-top: 3.3rem;
+}
