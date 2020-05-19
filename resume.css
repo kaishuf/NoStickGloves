@@ -14,3 +14,12 @@ hr{
 h2{
   font-size:14px;
 }
+h1{
+  font-family: 'Courier New', Courier, monospace;
+}
+.jumbotron{
+  margin-top:3rem;
+}
+h5{
+  font-family: 'Courier New', Courier, monospace;
+}
